@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         startNewRound()
+        updateLabels()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +36,7 @@ class ViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
         startNewRound()
+        updateLabels()
         
     }
     
@@ -46,7 +48,6 @@ class ViewController: UIViewController {
         targetValue = 1 + Int(arc4random_uniform(100))
         currentValue = 50
         slider.value = Float(currentValue)
-        updateLabels()
     }
     
     func updateLabels() {
