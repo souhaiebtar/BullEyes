@@ -78,7 +78,16 @@ class ViewController: UIViewController {
         scoreLabel.text = String(score)
         roundLabel.text = String(round)
     }
-
+    
+    @IBAction func startOver() {
+        startNewGame()
+        updateLabels()
+    }
+    func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+    }
 
 }
 
