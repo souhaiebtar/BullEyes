@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var currentValue: Int = 0
     var targetValue: Int = 0
+    var score = 0
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var targetLabel: UILabel!
     override func viewDidLoad() {
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
     @IBAction func showAlert() {
         let difference = abs(targetValue - currentValue)
         let points = 100 - difference
+        
+        score += points
         
         let message = "You scored \(points) points"
         let alert  = UIAlertController(title: "Hello, World",
