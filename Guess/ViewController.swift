@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         startNewRound()
         updateLabels()
-        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
         slider.setThumbImage(thumbImageNormal, for: .normal)
         
         let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
