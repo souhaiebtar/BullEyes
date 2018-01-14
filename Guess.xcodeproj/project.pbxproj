@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30775EE5200B64ED0089D640 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30775EE4200B64ED0089D640 /* AboutViewController.swift */; };
+		308BC297200B7B0B00AFF4DC /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 308BC296200B7B0B00AFF4DC /* BullsEye.html */; };
 		3093829D200A2DB70048E962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093829C200A2DB70048E962 /* AppDelegate.swift */; };
 		3093829F200A2DB70048E962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093829E200A2DB70048E962 /* ViewController.swift */; };
 		309382A2200A2DB70048E962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309382A0200A2DB70048E962 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		30775EE4200B64ED0089D640 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		308BC296200B7B0B00AFF4DC /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		30938299200A2DB70048E962 /* Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3093829C200A2DB70048E962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3093829E200A2DB70048E962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		3093829B200A2DB70048E962 /* Guess */ = {
 			isa = PBXGroup;
 			children = (
+				308BC296200B7B0B00AFF4DC /* BullsEye.html */,
 				3093829C200A2DB70048E962 /* AppDelegate.swift */,
 				3093829E200A2DB70048E962 /* ViewController.swift */,
 				30775EE4200B64ED0089D640 /* AboutViewController.swift */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309382A7200A2DB70048E962 /* LaunchScreen.storyboard in Resources */,
+				308BC297200B7B0B00AFF4DC /* BullsEye.html in Resources */,
 				309382A4200A2DB70048E962 /* Assets.xcassets in Resources */,
 				309382A2200A2DB70048E962 /* Main.storyboard in Resources */,
 			);
